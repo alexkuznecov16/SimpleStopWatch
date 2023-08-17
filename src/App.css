@@ -59,3 +59,21 @@ button {
 .timer__btns button:nth-child(3) {
     background-color: red;
 }
+
+@media screen and (max-width: 400px) {
+    .timer__spans span {
+        font-size: 17px;
+    }
+    .timer__btns button {
+        font-size: 14px;
+    }
+    .timer__btns button:hover {
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .timer__btns button {
+        padding: 8px 12px;
+    }
+}
