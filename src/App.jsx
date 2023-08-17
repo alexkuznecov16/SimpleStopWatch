@@ -34,8 +34,6 @@ function App() {
         return () => clearInterval(timer);
     }, [start, hours, minutes, seconds, msec]);
 
-
-    
     function startTimer() {
         setStart(true);
     }
@@ -52,7 +50,6 @@ function App() {
         setSeconds(0);
         setMsec(0);
     }
-
 
     return (
         <div className='timer__block'>
